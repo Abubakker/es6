@@ -24,5 +24,5 @@ class TestClass {
 var obj = new TestClass;
 
 obj.MyX("Nayagola")
-// obj.MyName() // not use like it's
+// obj.MyName()  not use like it's
 TestClass.MyName()
