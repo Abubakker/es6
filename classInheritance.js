@@ -1,4 +1,4 @@
-// classInheritance
+// classInheritance method override
 class parentClass {
     constructor() {
         console.log("constructor");
@@ -22,10 +22,12 @@ class parentClass {
 }
 
 class childClass extends parentClass {
-
+    MyA() {
+        console.log("A class from child Class"); // method override
+    }
 }
 
-var childObj = new parentClass;
+var childObj = new childClass;
 
 childObj.MyA()
 childObj.MyB()
